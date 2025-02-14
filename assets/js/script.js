@@ -47,10 +47,10 @@ function scrollToSection() {
 const intSpeakers = [
     {
         'name': 'Prof. Kamaljeet Sandhu',
-        'position': 'UNE Business School, Australia',
+        'position': 'AI Hub / University of New England, Australia',
         'contact': '',
         'image': '/assets/images/speaker/kamal.jpg',
-        'link': 'https://www.une.edu.au/staff-profiles/business/ksandhu'
+        'link': 'https://sites.google.com/view/abcc99/director-prof-kamaljeet-sandhu'
     },
     {
         'name': 'Prof. Mohamed Nabil Srifi',
@@ -58,6 +58,13 @@ const intSpeakers = [
         'contact': '',
         'image': '/assets/images/speaker/nabil.jpg',
         'link': 'https://www.linkedin.com/in/m-nabil-srifi-b712658a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
+    },
+    {
+        'name': 'Prof. Indranil SenGupta',
+        'position': 'City University of New York (CUNY)- Hunter College',
+        'contact': '',
+        'image': '/assets/images/speaker/indranil.jpg',
+        'link': 'https://math.hunter.cuny.edu/indranilsg/'
     },
 ]
 
