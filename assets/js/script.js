@@ -36,7 +36,7 @@ for (let i = 0; i < footer_links.length; i++) {
 }
 
 download_button.onclick = () => {
-    window.open("https://firebasestorage.googleapis.com/v0/b/artco-bb7b5.appspot.com/o/CFP%20-%20AISC%202025.pdf?alt=media&token=07b63dbb-1528-4d84-898e-f04c4f68d865", "_blank")
+    window.open("https://firebasestorage.googleapis.com/v0/b/artco-bb7b5.appspot.com/o/CFP%20-%20AISC%202025%20(2).pdf?alt=media&token=42ea407b-175f-47de-9119-e6f6ea7750e7", "_blank")
 }
 
 function scrollToSection() {
