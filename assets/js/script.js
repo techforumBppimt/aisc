@@ -118,7 +118,7 @@ intSpeakers.forEach(speaker => {
 // Register link 
 const registerBtn = document.getElementById('registerButton');
 registerBtn.onclick = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSea7xljsu2ILAIqwOVEgLE7rw0Y7e2R3JGVDuvZ-eBXEMkPiQ/viewform?usp=pp_url', '_blank')
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLScuozdP1cID3TrZ1K-6gq3M7GUU4mybyK4cJ0ygt3-6v0GeJQ/viewform?usp=dialog', '_blank')
 }
 const tutorialBtn = document.getElementById('tutorialBtn');
 tutorialBtn.onclick = () => {
