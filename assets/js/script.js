@@ -91,8 +91,8 @@ const intSpeakers = [
         'name': 'Ms. Usha Rengaraju',
         'position': 'Chief of Research, Exa Protocol',
         'contact': '',
-        'image': ' '///assets/images/speaker/usha.jpg,
-        'link': ' '//https://in.linkedin.com/in/usha-rengaraju-b570b7a2
+        'image': '',///assets/images/speaker/usha.jpg
+        'link': ''//https://in.linkedin.com/in/usha-rengaraju-b570b7a2
       }
 ]
 
