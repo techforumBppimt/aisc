@@ -53,6 +53,13 @@ const intSpeakers = [
         'link': 'https://sites.google.com/view/abcc99/director-prof-kamaljeet-sandhu'
     },
     {
+        'name': 'Prof. Bimal Roy',
+        'position': 'Professor, Applied Statistics Unit, Indian Statistical Institute, Kolkata',
+        'contact': '',
+        'image': '/assets/images/speaker/bimal.jpg',
+        'link': 'https://www2.isical.ac.in/~bimal/'
+    },
+    {
         'name': 'Prof. Mohamed Nabil Srifi',
         'position': 'Ibn Tofaïl University, Kenitra',
         'contact': '',
@@ -72,13 +79,6 @@ const intSpeakers = [
         'contact': '',
         'image': '/assets/images/speaker/sudip.jpg',
         'link': 'https://cse.iitkgp.ac.in/~smisra/'
-      },
-      {
-        'name': 'Prof. Bimal Roy',
-        'position': 'Professor, Applied Statistics Unit, Indian Statistical Institute, Kolkata',
-        'contact': '',
-        'image': '/assets/images/speaker/bimal.jpg',
-        'link': 'https://www2.isical.ac.in/~bimal/'
       },
       {
         'name': 'Prof. Amit Konar',
