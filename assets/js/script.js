@@ -66,6 +66,34 @@ const intSpeakers = [
         'image': '/assets/images/speaker/indranil.jpg',
         'link': 'https://math.hunter.cuny.edu/indranilsg/'
     },
+    {
+        'name': 'Prof. Sudip Misra',
+        'position': 'Professor, Department of Computer Science and Engineering, IIT Kharagpur',
+        'contact': '',
+        'image': '/assets/images/speaker/sudip.jpg',
+        'link': 'https://cse.iitkgp.ac.in/~smisra/'
+      },
+      {
+        'name': 'Prof. Bimal Roy',
+        'position': 'Professor, Applied Statistics Unit, Indian Statistical Institute, Kolkata',
+        'contact': '',
+        'image': '/assets/images/speaker/bimal.jpg',
+        'link': 'https://www2.isical.ac.in/~bimal/'
+      },
+      {
+        'name': 'Prof. Amit Konar',
+        'position': 'Professor, Department of Electronics and Telecommunication Engineering, Jadavpur University',
+        'contact': '',
+        'image': '/assets/images/speaker/amit.jpg',
+        'link': 'https://jaduniv.irins.org/profile/37010'
+      },
+      {
+        'name': 'Ms. Usha Rengaraju',
+        'position': 'Chief of Research, Exa Protocol',
+        'contact': '',
+        'image': ' '///assets/images/speaker/usha.jpg,
+        'link': ' '//https://in.linkedin.com/in/usha-rengaraju-b570b7a2
+      }
 ]
 
 const interspeakerList = document.querySelector('.international-speaker-list');
