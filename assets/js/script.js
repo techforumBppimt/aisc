@@ -89,11 +89,33 @@ const intSpeakers = [
       },
       {
         'name': 'Ms. Usha Rengaraju',
-        'position': 'Chief of Research, Exa Protocol',
+        'position': '(World’s First Woman Triple Kaggle Grandmaster Chief Data Scientist at Exa Protocol | Founder NeuroAI',
         'contact': '',
-        'image': '',///assets/images/speaker/usha.jpg
-        'link': ''//https://in.linkedin.com/in/usha-rengaraju-b570b7a2
-      }
+        'image': '/assets/images/speaker/usha.jpg',
+        'link': 'https://in.linkedin.com/in/usha-rengaraju-b570b7a2'
+      },
+      {
+        "name": "Sourabh Mukherjee",
+        "position": "India Practice Head - Data-AI Advisory, Accenture, Kolkata",
+        "contact": "sourabh.mukherjee@accenture.com",
+        "image": "/assets/images/speaker/sourabh.jpg",
+        "link": "https://in.linkedin.com/in/sourabhmukherjee"
+      },
+      {
+        "name": "Prof. Ansuman Banerjee",
+        "position": "Professor, Advanced Computing and Microelectronics Unit, Indian Statistical Institute, Kolkata",
+        "contact": "later",
+        "image": "/assets/images/speaker/ansuman.jpg",
+        "link": "https://isi.irins.org/profile/111420"
+      },
+      {
+        "name": "Shamik Misra",
+        "position": "Senior Escalation Engineer, Microsoft India (R&D) Pvt. Ltd.",
+        "contact": "later",
+        "image": "/assets/images/speaker/shamik_misra.jpg",
+        "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a"
+    }
+    
 ]
 
 const interspeakerList = document.querySelector('.international-speaker-list');
