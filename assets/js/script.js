@@ -95,7 +95,7 @@ const intSpeakers = [
         'link': 'https://in.linkedin.com/in/usha-rengaraju-b570b7a2'
       },
       {
-        "name": "Sourabh Mukherjee",
+        "name": "Mr. Sourabh Mukherjee",
         "position": "India Practice Head - Data-AI Advisory, Accenture, Kolkata",
         "contact": "sourabh.mukherjee@accenture.com",
         "image": "/assets/images/speaker/sourabh.jpg",
@@ -109,8 +109,8 @@ const intSpeakers = [
         "link": "https://isi.irins.org/profile/111420"
       },
       {
-        "name": "Shamik Misra",
-        "position": "Senior Escalation Engineer, Microsoft India (R&D) Pvt. Ltd.",
+        "name": "Mr. Shamik Misra",
+        "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",      
         "contact": "later",
         "image": "/assets/images/speaker/shamik_misra.jpg",
         "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a"
