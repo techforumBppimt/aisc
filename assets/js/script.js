@@ -112,7 +112,7 @@ const intSpeakers = [
         "name": "Mr. Shamik Misra",
         "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",      
         "contact": "later",
-        "image": "/assets/images/speaker/shamik_misra.jpg",
+        "image": "/assets/images/speaker/shamik.jpg",
         "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a"
     }
     
