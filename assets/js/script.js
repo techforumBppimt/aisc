@@ -190,7 +190,7 @@ tutorialBtn.onclick = () => {
 }
 const listernerBtn = document.getElementById('listenerBtn');
 listernerBtn.onclick = () => {
-    window.open('https://forms.gle/L67mXzQ1mKFbzqUc8', '_blank');
+    window.open('https://forms.gle/L67mXzQ1mKFbzqUc8', '_blank')
 }
 const posterButton = document.getElementById('posterButton');
 posterButton.onclick = () => {
