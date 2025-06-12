@@ -182,7 +182,7 @@ intSpeakers.forEach(speaker => {
 // Register link 
 const registerBtn = document.getElementById('registerButton');
 registerBtn.onclick = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLScuozdP1cID3TrZ1K-6gq3M7GUU4mybyK4cJ0ygt3-6v0GeJQ/viewform?usp=dialog', '_blank')
+    window.open('https://forms.gle/umyVimZiPCNQN9UX8', '_blank')
 }
 const tutorialBtn = document.getElementById('tutorialBtn');
 tutorialBtn.onclick = () => {
@@ -190,7 +190,7 @@ tutorialBtn.onclick = () => {
 }
 const listernerBtn = document.getElementById('listenerBtn');
 listernerBtn.onclick = () => {
-    alert('Registration link coming soon');
+    window.open('https://forms.gle/L67mXzQ1mKFbzqUc8', '_blank');
 }
 const posterButton = document.getElementById('posterButton');
 posterButton.onclick = () => {
