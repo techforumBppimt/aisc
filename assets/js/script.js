@@ -119,14 +119,14 @@ const intSpeakers = [
         "name": "Dr. Hena Ray",
         "position": "Joint Director at CDAC, Kolkata",
         "contact": "later",
-        "image": "",
+        "image": "/assets/images/speaker/hena.jpg",
         "link": "https://www.linkedin.com/in/dr-hena-ray-8178671a7"
     },
     {
         "name": "Dr. Ritajit Majumdar",
         "position": "Research Scientist, IBM Quantum",
         "contact": "later",
-        "image": "",
+        "image": "/assets/images/speaker/ritajit.jpg",
         "link": "https://in.linkedin.com/in/dr-ritajit-majumdar-59683442"
     }
     
