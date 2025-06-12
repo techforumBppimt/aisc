@@ -185,9 +185,9 @@ registerBtn.onclick = () => {
     window.open('https://forms.gle/umyVimZiPCNQN9UX8', '_blank') //new link by swagata maam 
 }
 const tutorialBtn = document.getElementById('tutorialBtn');
-tutorialBtn.onclick = () => {
+/* tutorialBtn.onclick = () => {
     window.open('https://forms.gle/nC5YxavKaHciwgn46', '_blank') //new link by swagata maam
-}
+}*/
 const listernerBtn = document.getElementById('listenerBtn');
 listernerBtn.onclick = () => {
     window.open('https://forms.gle/L67mXzQ1mKFbzqUc8', '_blank') //new link by swagata maam
