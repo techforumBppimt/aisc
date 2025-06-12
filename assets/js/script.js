@@ -79,41 +79,55 @@ const intSpeakers = [
         'contact': '',
         'image': '/assets/images/speaker/sudip.jpg',
         'link': 'https://cse.iitkgp.ac.in/~smisra/'
-      },
-      {
+    },
+    {
         'name': 'Prof. Amit Konar',
         'position': 'Professor, Department of Electronics and Telecommunication Engineering, Jadavpur University',
         'contact': '',
         'image': '/assets/images/speaker/amit.jpg',
         'link': 'https://jaduniv.irins.org/profile/37010'
-      },
-      {
+    },
+    {
         'name': 'Ms. Usha Rengaraju',
         'position': '(World’s First Woman Triple Kaggle Grandmaster Chief Data Scientist at Exa Protocol | Founder NeuroAI',
         'contact': '',
         'image': '/assets/images/speaker/usha.jpg',
         'link': 'https://in.linkedin.com/in/usha-rengaraju-b570b7a2'
-      },
-      {
+    },
+    {
         "name": "Mr. Sourabh Mukherjee",
         "position": "India Practice Head - Data-AI Advisory, Accenture, Kolkata",
         "contact": "sourabh.mukherjee@accenture.com",
         "image": "/assets/images/speaker/sourabh.jpg",
         "link": "https://in.linkedin.com/in/sourabhmukherjee"
-      },
-      {
+    },
+    {
         "name": "Prof. Ansuman Banerjee",
         "position": "Professor, Advanced Computing and Microelectronics Unit, Indian Statistical Institute, Kolkata",
         "contact": "later",
         "image": "/assets/images/speaker/ansuman.jpg",
         "link": "https://isi.irins.org/profile/111420"
-      },
-      {
+    },
+    {
         "name": "Mr. Shamik Misra",
         "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",      
         "contact": "later",
         "image": "/assets/images/speaker/shamik.jpg",
         "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a"
+    },
+    {
+        "name": "Dr. Hena Ray",
+        "position": "Joint Director at CDAC, Kolkata",
+        "contact": "later",
+        "image": "",
+        "link": "https://www.linkedin.com/in/dr-hena-ray-8178671a7"
+    },
+    {
+        "name": "Dr. Ritajit Majumdar",
+        "position": "Research Scientist, IBM Quantum",
+        "contact": "later",
+        "image": "",
+        "link": "https://in.linkedin.com/in/dr-ritajit-majumdar-59683442"
     }
     
 ]
