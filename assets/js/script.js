@@ -182,15 +182,15 @@ intSpeakers.forEach(speaker => {
 // Register link 
 const registerBtn = document.getElementById('registerButton');
 registerBtn.onclick = () => {
-    window.open('https://forms.gle/umyVimZiPCNQN9UX8', '_blank')
+    window.open('https://forms.gle/umyVimZiPCNQN9UX8', '_blank') //new link by swagata maam 
 }
 const tutorialBtn = document.getElementById('tutorialBtn');
 tutorialBtn.onclick = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSecHDzrC-NOAsFsob5swentewfEStv77SI18q9OL_J6ncDK2A/viewform', '_blank')
+    window.open('https://forms.gle/nC5YxavKaHciwgn46', '_blank') //new link by swagata maam
 }
 const listernerBtn = document.getElementById('listenerBtn');
 listernerBtn.onclick = () => {
-    window.open('https://forms.gle/L67mXzQ1mKFbzqUc8', '_blank')
+    window.open('https://forms.gle/L67mXzQ1mKFbzqUc8', '_blank') //new link by swagata maam
 }
 const posterButton = document.getElementById('posterButton');
 posterButton.onclick = () => {
