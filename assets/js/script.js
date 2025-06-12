@@ -196,11 +196,11 @@ const posterButton = document.getElementById('posterButton');
 posterButton.onclick = () => {
     window.open('https://firebasestorage.googleapis.com/v0/b/artco-bb7b5.appspot.com/o/Poster1.pdf?alt=media&token=4608bf05-e8ad-46f1-bb5a-97d8474229ee', '_blank')
 }
-const ScheduleButton = document.getElementById('ScheduleButton');
+/*const ScheduleButton = document.getElementById('ScheduleButton');
 ScheduleButton.onclick = () => {
     window.open('https://firebasestorage.googleapis.com/v0/b/aisc2024-cc60f.appspot.com/o/Program%20schedule%20AISC%202024%20July%2010.pdf?alt=media&token=f94fe927-6037-46a0-b71d-5f3e66e238e1', '_blank')
 }
 const copyrightButton = document.getElementById('copyrightButton');
 copyrightButton.onclick = () => {
     window.open('https://firebasestorage.googleapis.com/v0/b/aisc2024-cc60f.appspot.com/o/Springer_ProceedingsPaper_LTP_ST_SN_Singapore.docx?alt=media&token=5dfdc52d-24af-4b1f-9f01-8c88803a18c1', '_blank')
-}
+}*/
