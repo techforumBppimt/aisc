@@ -135,7 +135,7 @@ main .centre {
   align-items: center;
   height: 100%;
   gap: 20px;
-  padding-block: 100px;
+  padding-block: 60px;
   text-align: center;
 }
 
@@ -161,6 +161,55 @@ main .centre div h3 {
 main p {
   font-weight: 500;
 }
+
+main .date-widget{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-inline: auto;
+  gap: 10px;
+  background: linear-gradient(-45deg, rgb(123, 255, 0), white);
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+main .centre div .date-widget h1{
+  color: #134F00;
+  text-align: center;
+}
+main .centre div .date-widget div h2{
+  font-size: 16px;
+}
+
+main .centre div .date-widget .days-left-container{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  border: 5px solid #134F00;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+  margin-block: -10px;
+}
+
+main .centre div .date-widget .days-left-container .days-left{
+  background-color: #134F00;
+  width: 100%;
+  padding: 10px 25px;
+}
+
+main .centre div .date-widget .days-left-container h1{
+  color: white;
+}
+
+main .centre div .date-widget .days-left-container h2{
+  font-size: 16px;
+  padding: 10px;
+}
+
 
 main .listener{
   width: 100%;

@@ -110,7 +110,7 @@ const intSpeakers = [
     },
     {
         "name": "Mr. Shamik Misra",
-        "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",      
+        "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",
         "contact": "later",
         "image": "/assets/images/speaker/shamik.jpg",
         "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a"
@@ -129,7 +129,7 @@ const intSpeakers = [
         "image": "/assets/images/speaker/ritajit.jpg",
         "link": "https://in.linkedin.com/in/dr-ritajit-majumdar-59683442"
     }
-    
+
 ]
 
 const interspeakerList = document.querySelector('.international-speaker-list');
@@ -204,3 +204,27 @@ const copyrightButton = document.getElementById('copyrightButton');
 copyrightButton.onclick = () => {
     window.open('https://firebasestorage.googleapis.com/v0/b/aisc2024-cc60f.appspot.com/o/Springer_ProceedingsPaper_LTP_ST_SN_Singapore.docx?alt=media&token=5dfdc52d-24af-4b1f-9f01-8c88803a18c1', '_blank')
 }*/
+
+// date widget
+// Set the target date (24 July 2025)
+const targetDate = new Date('2025-07-24T00:00:00');
+
+// Get today's date
+const today = new Date();
+
+// Calculate the time difference
+const timeDiff = targetDate - today;
+
+// Calculate the number of days left
+let daysLeft = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+// Ensure it's not negative
+daysLeft = Math.max(daysLeft, 0);
+
+// Update the DOM
+document.addEventListener("DOMContentLoaded", () => {
+    const daysLeftElement = document.querySelector('.days-left h1');
+    if (daysLeftElement) {
+        daysLeftElement.textContent = daysLeft;
+    }
+});
