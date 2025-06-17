@@ -625,7 +625,7 @@ section.display .screen .poster-guidelines #posterButton:hover{
   background-color: rgb(255, 193, 193);
 }
 
-section.display .screen .guidelines p:nth-child(2){
+section.display .screen .guidelines p{
   font-weight: bold;
 }
 
