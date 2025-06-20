@@ -902,3 +902,16 @@ section.display .screen .copyright #copyrightButton:hover{
   color: rgb(135, 2, 2);
   background-color: rgb(255, 193, 193);
 }
+
+section.display .screen .photos .collage{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+section.display .screen .photos img{
+  width: 100%;
+  border-radius: 10px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
