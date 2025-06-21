@@ -84,7 +84,7 @@ const intSpeakers = [
         'name': 'Prof. Amit Konar',
         'position': 'Professor, Department of Electronics and Telecommunication Engineering, Jadavpur University',
         'contact': '',
-        'image': '/assets/images/speaker/amit.jpg',
+        'image': '/assets/images/speaker/amit.jpeg',
         'link': 'https://jaduniv.irins.org/profile/37010'
     },
     {
