@@ -116,6 +116,7 @@ section {
   z-index: -1;
 }
 
+/* ============ MAIN ============ */
 main {
   background: linear-gradient(to right, #7dfb7b2f, #0bcbfb3b);
   background-size: cover;
@@ -243,6 +244,37 @@ main .listener .container button{
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+main .notification{
+  background: rgb(255, 195, 195);
+  background-size: 400% 400%;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.295);
+  display:flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 15px 12px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+main .notification h3{
+  color: rgb(252, 13, 13);
+  font-size:23px;
+}
+main .notification p{
+  font-weight:500;
+  line-height: 1.2rem;
+  font-size:15px;
+}
+main .notification img{
+  width: 23px;
+  height: 23px;
+  position:absolute;
+  right:8px;
+  bottom:8px;
 }
 
 .venue{
