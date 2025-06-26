@@ -228,3 +228,20 @@ document.addEventListener("DOMContentLoaded", () => {
         daysLeftElement.textContent = daysLeft;
     }
 });
+
+const notificatonElement = document.querySelector('main .notification');
+console.log(notificatonElement);
+notificatonElement.addEventListener('click', () => {
+    console.log("Notification clicked");
+    for (let j = 0; j < indi_screens.length; j++) {
+        const screen = indi_screens[j];
+        screen.style.display = "none";
+    }
+    for( let j = 0; j < menu_btns.length; j++) {
+        const button = menu_btns[j];
+        button.removeAttribute("class");
+    }
+    menu_btns[6].setAttribute("class", "active");
+    indi_screens[6].style.display = "block";
+    scrollToSection();
+})
