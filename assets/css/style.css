@@ -327,6 +327,12 @@ main .notification img{
   main .listener .container{
     width: 90%;
   }
+  main .notification{
+    width: 90%;
+  }
+  main .notification h3{
+    font-size:20px;
+  }
 
   main .listener .container h2{
     font-size: 17px;
