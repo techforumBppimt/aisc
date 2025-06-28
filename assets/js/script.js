@@ -99,7 +99,9 @@ const intSpeakers = [
         "position": "India Practice Head - Data-AI Advisory, Accenture, Kolkata",
         "contact": "sourabh.mukherjee@accenture.com",
         "image": "/assets/images/speaker/sourabh.jpg",
-        "link": "https://in.linkedin.com/in/sourabhmukherjee"
+        "link": "https://in.linkedin.com/in/sourabhmukherjee",
+        "session-title": "Enterprise Digital Brain",
+        "abstract": "In today’s dynamic business environment, the concept of an Enterprise Digital Brain is rapidly emerging as a strategic imperative for organizations seeking to harness data and AI at scale. This lecture explores the architecture and practical applications of the Enterprise Digital Brain, with a focus on real-world industry use cases across sectors. We will delve into the foundational elements of data and AI architectures, including the role of intelligent agents, the model switchboard for dynamic model orchestration, and a robust data foundation built on data products and domain-specific ontologies. Attendees will gain a comprehensive understanding of how these components interoperate to enable adaptive, intelligent decision-making systems that drive innovation, operational efficiency, and competitive advantage."
     },
     {
         "name": "Prof. Ansuman Banerjee",
@@ -161,7 +163,30 @@ intSpeakers.forEach(speaker => {
     }
     if (speaker.link != '') {
         speakerLink.onclick = () => {
-            window.open(speaker.link, '_blank')
+            // window.open(speaker.link, '_blank')
+            const aboutSpeaker = document.querySelector('.about-speaker');
+            const aboutSpeakerImg = document.querySelector('.about-speaker .about-box img');
+            const aboutSpeakerName = document.querySelector('.about-speaker .about-box h2');
+            const aboutSpeakerPosition = document.querySelector('.about-speaker .about-box p');
+            const aboutSpeakerButton = document.querySelector('.about-speaker .about-box button');
+            const sessionTitle = document.querySelector('.about-speaker .about-box .lecture-box h3');
+            const abstract = document.querySelector('.about-speaker .about-box .lecture-box p');
+            const lectureBox = document.querySelector('.about-speaker .about-box .lecture-box');
+
+            if(speaker['session-title'] == null) {
+                lectureBox.style.display = "none";
+            } else {
+                lectureBox.style.display = "flex";
+            }
+            sessionTitle.textContent = `Lecture Title: ${speaker['session-title']}`;
+            abstract.textContent = 'Abstract: '+speaker.abstract;
+            aboutSpeakerImg.src = speaker.image;
+            aboutSpeakerName.textContent = speaker.name;
+            aboutSpeakerPosition.textContent = speaker.position;
+            aboutSpeakerButton.onclick = () => {
+                window.open(speaker.link, '_blank')
+            }
+            aboutSpeaker.style.display = "flex";
         }
         speakerLink.appendChild(speakerLinkImage);
         speakerLink.appendChild(speakerLinkText);
@@ -237,11 +262,18 @@ notificatonElement.addEventListener('click', () => {
         const screen = indi_screens[j];
         screen.style.display = "none";
     }
-    for( let j = 0; j < menu_btns.length; j++) {
+    for (let j = 0; j < menu_btns.length; j++) {
         const button = menu_btns[j];
         button.removeAttribute("class");
     }
     menu_btns[6].setAttribute("class", "active");
     indi_screens[6].style.display = "block";
     scrollToSection();
+})
+
+// close about speaker
+const closeAboutSpeaker = document.querySelector('.about-speaker .close-about-speaker');
+closeAboutSpeaker.addEventListener('click', () => {
+    const aboutSpeaker = document.querySelector('.about-speaker');
+    aboutSpeaker.style.display = "none";
 })
