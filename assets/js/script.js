@@ -50,14 +50,18 @@ const intSpeakers = [
         'position': 'AI Hub / University of New England, Australia',
         'contact': '',
         'image': '/assets/images/speaker/kamal.jpg',
-        'link': 'https://sites.google.com/view/abcc99/director-prof-kamaljeet-sandhu'
+        'link': 'https://sites.google.com/view/abcc99/director-prof-kamaljeet-sandhu',
+        "session-title": 'Quantum AI Innovations Adoption for Global Reserve Banks in CBDC Governance: Opportunities & Challenges of Fintech & Cybersecurity for the US Federal Reserve System & the Reserve Bank of India.',
+        "abstract": "Quantum AI Innovations' adoption has the potential to modernize global reserve banks and the financial systems for the governance of CBDCs (central bank digital currencies). Research suggests that quantum computers are the most advanced and the next generation of computing systems that will drive technological innovations along with Artificial Intelligence (AI) for digital transformation of fintech (e.g. merger of finance and technology, called fintech). CBDCs are a new digital form of money being piloted by Reserve Banks around the globe that can transform the financial system. These opportunities can innovate the efficiency of the US Federal Reserve System, which is piloting its version of CBDC. The hegemony of the US dollar as a global currency in the form of CBDC has enormous benefits for the global economy, including India, which has become the fourth-largest economy and the biggest trading partner of the USA. The Reserve Bank of India is also trialling its version of CBDC, which will increase the efficiency of the Indian financial system to become a five-trillion-dollar economy by 2027. <br><br> However, such opportunities also present challenges, such as building a robust quantum technological platform with software, hardware, and networks that are safe and secure, and have modern cybersecurity features built in, as well as being interoperable with other countries' central banks that adopt advanced fintech capabilities. In comparison, China’s CBDC (e.g. digital Yuan) being ahead of other advanced nations, and China’s recent superiority in quantum computing (e.g. significant breakthrough in quantum computing with Zuchongzhi 3.0, a 105-qubit superconducting quantum processor, achieving quantum supremacy), and embedding with AI innovations can pose serious competition both for the USA and India, and as well as reshaping the global critical financial infrastructure; and especially has the potential to challenge and replace the US hegemony of the US Dollar from the US Federal Reserve Systems, with the Chinese digital Yuan, on a global scale unimaginable.  For the US Federal Reserve, building such an advanced quantum AI-driven critical financial infrastructure on a global scale requires a deeper understanding of the complex nature of global finance and interoperability, and embedding into the CBDC governance software engineering architecture to power fintech for digital transformation that can then autonomously be driven by AI. Time is short, and competitors are ahead."
     },
     {
         'name': 'Prof. Bimal Roy',
         'position': 'Professor, Applied Statistics Unit, Indian Statistical Institute, Kolkata',
         'contact': '',
         'image': '/assets/images/speaker/bimal.jpg',
-        'link': 'https://www2.isical.ac.in/~bimal/'
+        'link': 'https://www2.isical.ac.in/~bimal/',
+        "session-title": 'AI for Cyber Security',
+        "abstract": "AI algorithms are explored to test for vulnerability of Cybersecurity and had some limited success too. Few such cases will be presented."
     },
     {
         'name': 'Prof. Mohamed Nabil Srifi',
@@ -108,14 +112,18 @@ const intSpeakers = [
         "position": "Professor, Advanced Computing and Microelectronics Unit, Indian Statistical Institute, Kolkata",
         "contact": "later",
         "image": "/assets/images/speaker/ansuman.jpg",
-        "link": "https://isi.irins.org/profile/111420"
+        "link": "https://isi.irins.org/profile/111420",
+        "session-title": "Verified Deep Learning: A Formal Methods perspective",
+        "abstract": "Artificial Intelligence (AI) assisted systems are being extensively used today in a variety of system deployments including safety- critical systems like self - driving cars and aircraft collision avoidance.Recent advances in Machine Learning(ML) and Deep Learning(DL) in particular, coupled with significant advances in computing architectures has resulted in widespread deployment of such systems in real practice. However, in spite of phenomenal research advances and hardware sophistication, these systems still pose an arsenal of risks.These range from privacy concerns, to algorithmic bias and black box decision making, to broader questions of hardware alignment, self - improvement, and risk from unexplainable intelligence.Given the scale and complexity of today’s systems, exhaustive verification of these systems with respect to satisfaction of safety objectives under all possible inputs is becoming an insurmountable challenge, due to factors like nonlinearity of the model, high dimensional input spaces, real - valued weights.Our objective is to augment AI - assisted systems with safety and robustness certificates to enable wider adoption in mainstream design flows, as they become increasingly more capable and creative.This talk will present a scalable methodology for ensuring robustness properties of AI - assisted systems that employ Neural Networks(NN) and their variants."
     },
     {
         "name": "Mr. Shamik Misra",
         "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",
         "contact": "later",
         "image": "/assets/images/speaker/shamik.jpg",
-        "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a"
+        "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a",
+        "session-title": "Responsible AI in the Real World: Building Responsible and Scalable Solutions for Sustainability",
+        "abstract": "Responsible AI refers to the practice of designing, evaluating, and implementing artificial intelligence systems in a manner that is ethical, secure, and trustworthy. Since AI systems reflect a multitude of decisions made throughout their development and deployment, it's essential to ensure those decisions are guided by values that prioritize human needs and societal benefit. Responsible AI encourages thoughtful choices; from defining the system’s purpose to shaping user interaction, with the aim of promoting fairness, inclusivity, and accountability throughout the AI lifecycle. <br><br> In my presentation, I will focus on Microsoft's Responsible AI and its standards — a comprehensive framework grounded in six core principles: <ul> <li>Fairness</li> <li>Reliability and Safety</li> <li>Privacy and Security</li> <li>Inclusiveness</li> <li>Transparency</li> <li>Accountability</li> </ul> <br>At Microsoft, these principles form the foundation of our commitment to developing AI responsibly. As AI becomes increasingly embedded in the tools and services people rely on daily, adhering to these principles ensures that technology continues to serve the greater good — in a manner that is both ethical and sustainable."
     },
     {
         "name": "Dr. Hena Ray",
@@ -129,7 +137,9 @@ const intSpeakers = [
         "position": "Research Scientist, IBM Quantum",
         "contact": "later",
         "image": "/assets/images/speaker/ritajit.jpg",
-        "link": "https://in.linkedin.com/in/dr-ritajit-majumdar-59683442"
+        "link": "https://in.linkedin.com/in/dr-ritajit-majumdar-59683442",
+        "session-title": "Quantum-centric supercomputing: A new perspective on computing",
+        "abstract": "Quantum-centric supercomputing represents a revolutionary paradigm in computer science, integrating quantum computing with traditional high-performance computing (HPC). This synergistic approach aims to establish a computational system capable of resolving highly complex real-world challenges. This talk will commence with an overview of the foundational principles and prospective capabilities of quantum computing. Subsequently, we shall introduce the quantum-centric supercomputing framework, elucidating how problems of interest can be modularized for optimal integration within this framework. Recent advancements in this domain include the successful resolution of a complex chemistry problem within ~2 hours utilizing this framework, a task estimated to require approximately eight hours under a solely traditional HPC model. The discussion will conclude by addressing the National Quantum Mission (NQM) and its anticipated contributions to the Indian quantum ecosystem."
     }
 
 ]
@@ -173,13 +183,13 @@ intSpeakers.forEach(speaker => {
             const abstract = document.querySelector('.about-speaker .about-box .lecture-box p');
             const lectureBox = document.querySelector('.about-speaker .about-box .lecture-box');
 
-            if(speaker['session-title'] == null) {
+            if (speaker['session-title'] == null) {
                 lectureBox.style.display = "none";
             } else {
                 lectureBox.style.display = "flex";
             }
             sessionTitle.textContent = `Lecture Title: ${speaker['session-title']}`;
-            abstract.textContent = 'Abstract: '+speaker.abstract;
+            abstract.innerHTML = speaker.abstract;
             aboutSpeakerImg.src = speaker.image;
             aboutSpeakerName.textContent = speaker.name;
             aboutSpeakerPosition.textContent = speaker.position;
@@ -255,7 +265,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const notificatonElement = document.querySelector('main .notification');
-console.log(notificatonElement);
 notificatonElement.addEventListener('click', () => {
     console.log("Notification clicked");
     for (let j = 0; j < indi_screens.length; j++) {

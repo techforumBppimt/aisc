@@ -1044,4 +1044,9 @@ section.display .screen .photos img{
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-align: left;
+}
+
+.about-speaker .about-box .lecture-box p{
+  text-align: left;
 }
