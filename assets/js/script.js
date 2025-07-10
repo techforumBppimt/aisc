@@ -98,7 +98,9 @@ const intSpeakers = [
         'position': '(World’s First Woman Triple Kaggle Grandmaster Chief Data Scientist at Exa Protocol | Founder NeuroAI',
         'contact': '',
         'image': '/assets/images/speaker/usha.jpg',
-        'link': 'https://in.linkedin.com/in/usha-rengaraju-b570b7a2'
+        'link': 'https://in.linkedin.com/in/usha-rengaraju-b570b7a2',
+        "session-title": 'Implementing Multi Agent AI systems',
+        "abstract":"“Implementting Multi-Agent AI Systems” explores the design, integration, and deployment of autonomous AI agents in real-world environments. The session explores the architectural principles that enable AI agents to communicate, cooperate, and adapt dynamically to changing conditions. Next, it discusses strategies for embedding these AI agents into existing software and hardware infrastructures, highlighting modular interfaces and middleware solutions. Finally, the ethical and security considerations inherent in multi-agent deployments and outline future directions for scalable, trust-aware agent ecosystems are discussed."
     },
     {
         "name": "Mr. Sourabh Mukherjee",
