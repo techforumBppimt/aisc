@@ -15,7 +15,12 @@ for (let i = 0; i < menu_btns.length; i++) {
             button.removeAttribute("class");
         }
         menu_btns[i].setAttribute("class", "active");
-        indi_screens[i].style.display = "block";
+        if(i===9){
+            indi_screens[i].style.display = "flex";
+        }
+        else{
+            indi_screens[i].style.display = "block";
+        }
     }
 }
 for (let i = 0; i < footer_links.length; i++) {

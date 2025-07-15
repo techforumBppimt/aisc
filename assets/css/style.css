@@ -420,7 +420,8 @@ section.display .menu li:hover {
 }
 
 section.display .screen {
-  width: 70%;
+  width: 75%;
+  padding: 0 20px
 }
 
 section.display .screen .indi-screen {
@@ -607,6 +608,13 @@ section.display .screen .contact .container .indi-contact {
 
 section.display .screen .contact p {
   text-align: left;
+}
+
+section.display .screen .schedule{
+  margin:auto;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
 }
 
 section.display .screen .registration img,
@@ -886,6 +894,9 @@ footer li {
 
 section.display .screen .schedule #ScheduleButton{
   width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   margin-top: 15px;
   margin-bottom: 10px;
   padding: 10px 10px;
