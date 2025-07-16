@@ -161,7 +161,7 @@ const intSpeakers = [
         "image": "/assets/images/speaker/anwesha.jpg",
         "link": "https://www.linkedin.com/in/anwesha-khasnobish-28940b36/",
         "session-title":"Unobtrusive Intelligent Sensing for Physiological Insights",
-        "abstract": "he talk will cover two modalities, ultrasound and radio-frequency, of unobtrusive sensing specifically for human sensing. A respiration monitoring and its applications with  a novel tidal breathing pattern recorder (TBPR) will be discussed. Why and how the use of machine learning algorithms are helpful in these scenarios will also be presented. Using radars, another type of human sensing solutions with application of machine learning in human acticity recognition will be presented."
+        "abstract": "The talk will cover two modalities, ultrasound and radio-frequency, of unobtrusive sensing specifically for human sensing. A respiration monitoring and its applications with  a novel tidal breathing pattern recorder (TBPR) will be discussed. Why and how the use of machine learning algorithms are helpful in these scenarios will also be presented. Using radars, another type of human sensing solutions with application of machine learning in human acticity recognition will be presented."
     },
     
 
