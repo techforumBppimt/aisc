@@ -127,15 +127,15 @@ const intSpeakers = [
         "session-title": "A look inside the DeepSeek reasoning LLM",
         "abstract": "In recent times, large language models (LLMs) have revolutionized the world around us. Reasoning large language models are specialized LLMs designed to tackle complex, multi-step reasoning tasks that go beyond the capabilities of traditional LLMs. These models employ techniques like explicit logical reasoning, backtracking, and test-time computation to achieve amazing performance on a diverse variety of tasks involving logic, mathematics, or code generation. This tutorial will offer a glimpse inside such reasoning models, with a specific focus on DeepSeek-R1."
     },
-    {
-        "name": "Mr. Shamik Misra",
-        "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",
-        "contact": "later",
-        "image": "/assets/images/speaker/shamik.jpg",
-        "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a",
-        "session-title": "Responsible AI in the Real World: Building Responsible and Scalable Solutions for Sustainability",
-        "abstract": "Responsible AI refers to the practice of designing, evaluating, and implementing artificial intelligence systems in a manner that is ethical, secure, and trustworthy. Since AI systems reflect a multitude of decisions made throughout their development and deployment, it's essential to ensure those decisions are guided by values that prioritize human needs and societal benefit. Responsible AI encourages thoughtful choices; from defining the system’s purpose to shaping user interaction, with the aim of promoting fairness, inclusivity, and accountability throughout the AI lifecycle. <br><br> In my presentation, I will focus on Microsoft's Responsible AI and its standards — a comprehensive framework grounded in six core principles: <ul> <li>Fairness</li> <li>Reliability and Safety</li> <li>Privacy and Security</li> <li>Inclusiveness</li> <li>Transparency</li> <li>Accountability</li> </ul> <br>At Microsoft, these principles form the foundation of our commitment to developing AI responsibly. As AI becomes increasingly embedded in the tools and services people rely on daily, adhering to these principles ensures that technology continues to serve the greater good — in a manner that is both ethical and sustainable."
-    },
+    // {
+    //     "name": "Mr. Shamik Misra",
+    //     "position": "Senior Escalation Engineer, (Data & AI) division, Microsoft India (R&D) Pvt. Ltd.",
+    //     "contact": "later",
+    //     "image": "/assets/images/speaker/shamik.jpg",
+    //     "link": "https://in.linkedin.com/in/shamik-misra-bb7b4a33a",
+    //     "session-title": "Responsible AI in the Real World: Building Responsible and Scalable Solutions for Sustainability",
+    //     "abstract": "Responsible AI refers to the practice of designing, evaluating, and implementing artificial intelligence systems in a manner that is ethical, secure, and trustworthy. Since AI systems reflect a multitude of decisions made throughout their development and deployment, it's essential to ensure those decisions are guided by values that prioritize human needs and societal benefit. Responsible AI encourages thoughtful choices; from defining the system’s purpose to shaping user interaction, with the aim of promoting fairness, inclusivity, and accountability throughout the AI lifecycle. <br><br> In my presentation, I will focus on Microsoft's Responsible AI and its standards — a comprehensive framework grounded in six core principles: <ul> <li>Fairness</li> <li>Reliability and Safety</li> <li>Privacy and Security</li> <li>Inclusiveness</li> <li>Transparency</li> <li>Accountability</li> </ul> <br>At Microsoft, these principles form the foundation of our commitment to developing AI responsibly. As AI becomes increasingly embedded in the tools and services people rely on daily, adhering to these principles ensures that technology continues to serve the greater good — in a manner that is both ethical and sustainable."
+    // },
     {
         "name": "Dr. Hena Ray",
         "position": "Joint Director at CDAC, Kolkata",
@@ -153,7 +153,17 @@ const intSpeakers = [
         "link": "https://in.linkedin.com/in/dr-ritajit-majumdar-59683442",
         "session-title": "Quantum-centric supercomputing: A new perspective on computing",
         "abstract": "Quantum-centric supercomputing represents a revolutionary paradigm in computer science, integrating quantum computing with traditional high-performance computing (HPC). This synergistic approach aims to establish a computational system capable of resolving highly complex real-world challenges. This talk will commence with an overview of the foundational principles and prospective capabilities of quantum computing. Subsequently, we shall introduce the quantum-centric supercomputing framework, elucidating how problems of interest can be modularized for optimal integration within this framework. Recent advancements in this domain include the successful resolution of a complex chemistry problem within ~2 hours utilizing this framework, a task estimated to require approximately eight hours under a solely traditional HPC model. The discussion will conclude by addressing the National Quantum Mission (NQM) and its anticipated contributions to the Indian quantum ecosystem."
-    }
+    },
+    {
+        "name": "Anwesha Khasnobish",
+        "position": "Ph.D(Engg.) Scientist, TCS Research, Kolkata",
+        "contact": "later",
+        "image": "/assets/images/speaker/anwesha.jpg",
+        "link": "https://www.linkedin.com/in/anwesha-khasnobish-28940b36/",
+        "session-title":"Unobtrusive Intelligent Sensing for Physiological Insights",
+        "abstract": "he talk will cover two modalities, ultrasound and radio-frequency, of unobtrusive sensing specifically for human sensing. A respiration monitoring and its applications with  a novel tidal breathing pattern recorder (TBPR) will be discussed. Why and how the use of machine learning algorithms are helpful in these scenarios will also be presented. Using radars, another type of human sensing solutions with application of machine learning in human acticity recognition will be presented."
+    },
+    
 
 ]
 
@@ -277,24 +287,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-const notificatonElement = document.querySelector('main .notification');
-notificatonElement.addEventListener('click', () => {
-    console.log("Notification clicked");
-    for (let j = 0; j < indi_screens.length; j++) {
-        const screen = indi_screens[j];
-        screen.style.display = "none";
-    }
-    for (let j = 0; j < menu_btns.length; j++) {
-        const button = menu_btns[j];
-        button.removeAttribute("class");
-    }
-    menu_btns[6].setAttribute("class", "active");
-    indi_screens[6].style.display = "block";
-    scrollToSection();
-})
 
 // close about speaker
-const closeAboutSpeaker = document.querySelector('.about-speaker .close-about-speaker');
+const closeAboutSpeaker = document.querySelector('.close-about-speaker');
 closeAboutSpeaker.addEventListener('click', () => {
     const aboutSpeaker = document.querySelector('.about-speaker');
     aboutSpeaker.style.display = "none";
