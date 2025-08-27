@@ -892,7 +892,7 @@ footer li {
 
 
 
-section.display .screen .schedule .copyright  #ScheduleButton{
+section.display .screen .schedule #ScheduleButton{
   width: 100%;
   display: inline-block;
   text-align: center;
@@ -909,7 +909,7 @@ section.display .screen .schedule .copyright  #ScheduleButton{
   border-radius: 10px;
   transition: all .2s;
 }
-section.display .screen .schedule .copyright  #ScheduleButton:hover{
+section.display .screen .schedule  #ScheduleButton:hover{
   color: rgb(135, 2, 2);
   background-color: rgb(255, 193, 193);
 }
@@ -934,7 +934,10 @@ section.display .screen .copyright a{
 }
 
 section.display .screen .copyright #copyrightButton{
-  width: 100%;
+ width: 100%;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
   margin-top: 15px;
   margin-bottom: 10px;
   padding: 10px 10px;
