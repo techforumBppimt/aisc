@@ -909,7 +909,7 @@ section.display .screen .schedule #ScheduleButton{
   border-radius: 10px;
   transition: all .2s;
 }
-section.display .screen .schedule #ScheduleButton:hover{
+section.display .screen .schedule .copyright  #ScheduleButton:hover{
   color: rgb(135, 2, 2);
   background-color: rgb(255, 193, 193);
 }
