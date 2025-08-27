@@ -892,7 +892,7 @@ footer li {
 
 
 
-section.display .screen .schedule #ScheduleButton{
+section.display .screen .schedule .copyright  #ScheduleButton{
   width: 100%;
   display: inline-block;
   text-align: center;
